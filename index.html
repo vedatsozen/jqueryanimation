@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE 74</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    
+<div class="container m-auto flex flex-row justify-center items-center gap-5">
+    <h1 id="bir" class="j">J</h1>
+    <h1 id="iki" class="j">A</h1>
+    <h1 id="uc" class="j">V</h1>
+    <h1 id="dort" class="j">A</h1>
+    <h1 id="bes" class="j">S</h1>
+    <h1 id="alti" class="j">C</h1>
+    <h1 id="yedi" class="j">R</h1>
+    <h1 id="sekiz" class="j">I</h1>
+    <h1 id="dokuz" class="j">P</h1>
+    <h1 id="on" class="j">T</h1>
+
+</div>
+
+<p class="explanation">This animation is made by using jquery and coded by Front End Developer Vedat Sözen.</p>
+<script>
+
+$(document).ready(function() {
+
+
+function animation() {
+
+$(".j").hide();
+
+$("#bir").fadeIn(1000);
+$("#iki").fadeIn(2000);
+$("#uc").fadeIn(3000);
+$("#dort").fadeIn(4000);
+$("#bes").fadeIn(5000);
+$("#alti").fadeIn(6000);
+$("#yedi").fadeIn(7000);
+$("#sekiz").fadeIn(8000);
+$("#dokuz").fadeIn(7000);
+$("#on").fadeIn(8000);
+
+}
+
+animation();
+
+// Set interval to call the animation function every 8000 milliseconds (8 seconds)
+setInterval(animation, 8000);
+
+})
+
+
+
+</script>
+</body>
+</html>
