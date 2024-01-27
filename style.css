@@ -31,3 +31,39 @@ p.explanation {
     font-size: 13px;
     letter-spacing: 3px;
 }
+
+@media only screen and (max-width:480px) {
+
+
+    body {
+        text-align: center;
+        background-color: black;
+    }
+    
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    div.container {
+    
+        margin: auto;
+        margin-top: 150px;
+        width:90vw;
+    }
+    
+    div.container > h1 {
+        font-size: 14px;
+        color: white;
+    }
+    
+    p.explanation {
+        position:absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        color: white;
+        font-size:10px;
+        letter-spacing: 3px;
+    }
+
+}
